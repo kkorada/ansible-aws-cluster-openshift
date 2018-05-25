@@ -1,7 +1,7 @@
 
 - name: Find AMI
-  ec2_ami_find:
-     image_id: "{{ image_id }}"
+  ec2_ami_facts:
+     image_ids: "{{ image_id }}"
      region: "{{ region }}"
   register: "ami_find"
 
