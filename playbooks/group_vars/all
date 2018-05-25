@@ -2,7 +2,7 @@
 # See https://wiki.centos.org/Cloud/AWS for a list of official CentOS 7 Public Images
 
 # AMI used to build the openshift ami from
-image_id: ami-6e28b517
+image_id: ami-e3b2f08f
 
 # Sudo user for the image
 instance_user: centos
