@@ -17,7 +17,7 @@ ami_name: centos_base
 #
 bastion_instance_type: "t2.small"
 infra_instance_type: "m4.large"
-app_instance_type: "m4.large"
+app_instance_type: "m4.xlarge"
 
 #
 # ONLY CHANGE BELOW HERE IF YOU KNOW WHAT YOU ARE DOING
