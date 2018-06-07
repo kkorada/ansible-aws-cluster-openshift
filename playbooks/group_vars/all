@@ -16,8 +16,8 @@ ami_name: centos_base
 # See https://aws.amazon.com/ec2/pricing/on-demand/ for details on AWS instance sizes and pricing
 #
 bastion_instance_type: "t2.small"
-infra_instance_type: "m4.xlarge"
-app_instance_type: "m4.2xlarge"
+infra_instance_type: "m4.large"
+app_instance_type: "m4.large"
 
 #
 # ONLY CHANGE BELOW HERE IF YOU KNOW WHAT YOU ARE DOING
@@ -29,8 +29,8 @@ openshift_release: "v3.9"
 openshift_ansible_branch: "release-3.9"
 
 # Volume size
-root_volume_size: 50
-docker_volume_size: 50
+root_volume_size: 25
+docker_volume_size: 25
 
 # Networking
 vpc_cidr: "10.0.0.0/16"
